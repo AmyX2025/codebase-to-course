@@ -57,7 +57,7 @@ The single-file constraint is intentional: one HTML file means zero setup, insta
 Before writing course HTML, deeply understand the codebase. Read all the key files, trace the data flows, identify the "cast of characters" (main components/modules), and map how they communicate. Thoroughness here pays off — the more you understand, the better the course.
 
 **What to extract:**
-- The 3-6 main "actors" (components, services, modules) and their responsibilities
+- The main "actors" (components, services, modules) and their responsibilities
 - The primary user journey (what happens when someone uses the app end-to-end)
 - Key APIs, data flows, and communication patterns
 - Clever engineering patterns (caching, lazy loading, error handling, etc.)
@@ -89,7 +89,7 @@ Not every codebase needs all 7. A simple CLI tool might only need 4-5 modules. A
 - At least one code-with-English translation
 - At least one interactive element (quiz, visualization, or animation)
 - One or two "aha!" callout boxes with universal CS insights
-- A metaphor that grounds the technical concept in everyday life — but NEVER reuse the same metaphor across modules, and NEVER default to the "restaurant" metaphor (it's overused). Pick metaphors that organically fit the specific concept: a postal system for message passing, a library for databases, a security checkpoint for auth, a film crew for components with different roles, etc. The best metaphors feel *inevitable* for the concept, not forced.
+- A metaphor that grounds the technical concept in everyday life — but NEVER reuse the same metaphor across modules, and NEVER default to the "restaurant" metaphor (it's overused). Pick metaphors that organically fit the specific concept. The best metaphors feel *inevitable* for the concept, not forced.
 
 **Do NOT present the curriculum for approval — just build it.** The user wants a course, not a planning document. Design the curriculum internally, then go straight to generating the HTML. If they want changes, they'll tell you after seeing the result.
 
